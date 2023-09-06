@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Buku Tamu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .hasil-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .hasil-data {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0261c7;
+        }
+    </style>
+</head>
+<body>
+    <h2>Berhasil ditambahkan ke Buku Tamu</h2>
+    <div class="hasil-container">
+        <div class="hasil-data">
+            <strong>Nama:</strong>
+            <span id="namaValue"></span>
+        </div>
+        <div class="hasil-data">
+            <strong>Email:</strong>
+            <span id="emailValue"></span>
+        </div>
+        <div class="hasil-data">
+            <strong>Asal:</strong>
+            <span id="asalValue"></span>
+        </div>
+        <div class="hasil-data">
+            <strong>Jenis Kelamin:</strong>
+            <span id="jenisKelaminValue"></span>
+        </div>
+        <div class="hasil-data">
+            <strong>Hobi:</strong>
+            <span id="hobiValue"></span>
+        </div>
+        <div class="hasil-data">
+            <strong>Komentar:</strong>
+            <span id="komentarValue"></span>
+        </div>
+
+        <button onclick="kembali()">kembali</button>
+        <!-- Tambahkan elemen-elemen lain untuk menampilkan data yang lain di sini -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

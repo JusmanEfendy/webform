@@ -1,0 +1,77 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+background-color: #f9f9f9;
+}
+
+/* Styles for form labels */
+label {
+font-weight: bold;
+}
+
+/* Styles for input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+/* Styles for select dropdown */
+select {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+background-color: white; /* To make the select field's background white */
+}
+
+/* Styles for radio buttons */
+input[type="radio"] {
+margin-right: 5px;
+}
+
+/* Styles for buttons */
+input[type="submit"],
+input[type="reset"] {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+input[type="reset"] {
+background-color: #dc3545;
+margin-left: 10px;
+}
+
+/* Styles for buttons on hover */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+form {
+    max-width: 100%;
+}
+}

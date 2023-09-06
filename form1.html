@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengisi Buku Tamu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Mengisi Buku Tamu @Jussy_ez</h2>
+    <form action="show_data.html" method="GET">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="nama" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="contoh@mail.com" required><br><br>
+
+        <label for="asal">Asal:</label>
+        <select name="asal">
+            <option value="" selected disabled>Pilih Asal</option>
+            <option value="Sumbawa">Sumbawa</option>
+            <option value="Sumbawa Barat">Sumbawa Barat</option>
+            <option value="Bima">Bima</option>
+            <option value="Dompu">Dompu</option>
+        </select><br><br>
+    
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan <br><br>
+
+        <label for="hobi"> Hobi:</label>
+        <input type="checkbox" value="Badminton" name="hobi">Badminton
+        <input type="checkbox" value="Futsal" name="hobi">Futsal
+        <input type="checkbox" value="Ngoding" name="hobi">Ngoding <br><br>
+
+        <label for="komentar">Komentar Anda:</label><br>
+        <textarea id="komentar" name="komentar" placeholder="Komentar..." rows="4" cols="50" required></textarea><br>
+        
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
